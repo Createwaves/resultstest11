@@ -3692,7 +3692,7 @@
 
             if (accessConfirmBtn && accessWordInput && gateScreen && mainContainer && accessErrorMessage) {
                 accessConfirmBtn.addEventListener('click', async () => {
-                    if (accessWordInput.value.trim().toLowerCase() === 'results') {
+                    if (accessWordInput.value.trim().toLowerCase() === 'admin') {
                         gateScreen.style.display = 'none';
                         mainContainer.classList.remove('hidden-initial'); // Show main app
                         accessErrorMessage.classList.add('hidden');
